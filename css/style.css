@@ -357,17 +357,10 @@ a:hover {
 		font-size: 13pt;
 	}
 /* BG */
-@keyframes bg {
-	0% {
-		transform: translate3d(0,0,0);
-	}
-	100% {
-		transform: translate3d(-1500px,0,0);
-	}
-}
 #bg {
 	background-size: 1500px 100%;
 	width: 4500px;
+}
 }
 /* Normal */
 @media screen and (max-width: 1280px) {
@@ -376,17 +369,10 @@ a:hover {
 		font-size: 12pt;
 	}
 /* BG */
-@keyframes bg {
-	0% {
-		transform: translate3d(0,0,0);
-	}
-	100% {
-		transform: translate3d(-750px,0,0);
-	}
-}
 #bg {
 	background-size: 750px 100%;
 	width: 2250px;
+	}
 }
 /* Mobile */
 @media screen and (max-width: 736px) {
@@ -398,14 +384,6 @@ a:hover {
 		font-size: 11pt;
 	}
 /* BG */
-@keyframes bg {
-	0% {
-		transform: translate3d(0,0,0);
-	}
-	100% {
-		transform: translate3d(-300px,0,0);
-	}
-}
 #bg {
 	background-size: 300px 100%;
 	width: 900px;
@@ -426,17 +404,10 @@ a:hover {
 #header nav a:active {
 	font-size: 1em;
 }
+}
 /* Mobile (Portrait) */
 @media screen and (max-width: 480px) {
 /* BG */
-@keyframes bg {
-	0% {
-		transform: translate3d(0,0,0);
-	}
-	100% {
-		transform: translate3d(-412.5px,0,0);
-	}
-}
 #bg {
 	background-size: 412.5px 100%;
 	width: 1237.5px;
@@ -444,4 +415,5 @@ a:hover {
 /* Header */
 #header nav {
 	padding: 0 1em;
+	}
 }
