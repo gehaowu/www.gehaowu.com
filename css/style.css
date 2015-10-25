@@ -368,7 +368,7 @@ a:hover {
 #bg {
 	background-size: 1500px 100%;
 	width: 4500px;
-} }
+}
 /* Normal */
 @media screen and (max-width: 1280px) {
 /* Basic */
@@ -387,7 +387,7 @@ a:hover {
 #bg {
 	background-size: 750px 100%;
 	width: 2250px;
-} }
+}
 /* Mobile */
 @media screen and (max-width: 736px) {
 /* Basic */
@@ -425,7 +425,7 @@ a:hover {
 }
 #header nav a:active {
 	font-size: 1em;
-} }
+}
 /* Mobile (Portrait) */
 @media screen and (max-width: 480px) {
 /* BG */
@@ -444,4 +444,4 @@ a:hover {
 /* Header */
 #header nav {
 	padding: 0 1em;
-} }
+}
