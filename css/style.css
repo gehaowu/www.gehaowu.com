@@ -59,9 +59,6 @@ body.loading * {
 	-webkit-animation: none !important;
 	animation: none !important;
 }
-.preload {
-	display: none;
-}
 a {
 	-webkit-transition: border-color 0.2s ease-in-out;
 	transition: border-color 0.2s ease-in-out;
