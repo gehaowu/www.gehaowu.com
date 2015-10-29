@@ -341,11 +341,11 @@ a:hover {
 	text-align: center;
 	width: 100%;
 }
-.beian a {
+#beian a {
 	font-size: 0.9em;
 	text-decoration: none;
 }
-.copyright {
+#copyright {
 	font-size: 0.8em;
 }
 /* Wide */
