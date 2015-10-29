@@ -153,14 +153,6 @@ a:hover {
 	width: 6750px;
 }
 /* Overlay */
-@keyframes overlay {
-	0% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
-}
 #overlay {
 	/*animation: overlay 1.5s 1.5s forwards;
 	background-attachment: fixed, fixed;
@@ -176,7 +168,7 @@ a:hover {
 	background-size: cover;
 	height: 100%;
 	left: 0;
-	opacity: 0;
+	opacity: 1;
 	position: fixed;
 	top: 0;
 	width: 100%;
