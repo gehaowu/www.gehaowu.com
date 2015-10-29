@@ -168,6 +168,12 @@ a:hover {
 	background-position: top left, center center;
 	background-repeat: repeat, no-repeat;
 	background-size: auto, cover;*/
+	animation: overlay 1.5s 1.5s forwards;
+	background-attachment: fixed;
+	background-image: url("../images/overlay.svg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
 	height: 100%;
 	left: 0;
 	opacity: 0;
