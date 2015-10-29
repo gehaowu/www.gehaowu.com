@@ -181,34 +181,22 @@ a:hover {
 	width: 6750px;
 }
 /* Overlay */
-@-webkit-keyframes overlay {
-	0% {
-		opacity: 0;
-	}
-
-	100% {
-		opacity: 1;
-	}
-}
-@keyframes overlay {
-	0% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
-}
 #overlay {
-	-webkit-animation: overlay 1.5s 1.5s forwards;
-	animation: overlay 1.5s 1.5s forwards;
+	/*animation: overlay 1.5s 1.5s forwards;
 	background-attachment: fixed, fixed;
 	background-image: url("../images/overlay-pattern.png"), url("../images/overlay.svg");
 	background-position: top left, center center;
 	background-repeat: repeat, no-repeat;
-	background-size: auto, cover;
+	background-size: auto, cover;*/
+	animation: overlay 1.5s forwards;
+	background-attachment: fixed;
+	background-image: url("../images/overlay.svg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
 	height: 100%;
 	left: 0;
-	opacity: 0;
+	opacity: 1;
 	position: fixed;
 	top: 0;
 	width: 100%;
