@@ -130,7 +130,6 @@ a:hover {
 	}
 }
 #wrapper {
-	-webkit-animation: wrapper 3s forwards;
 	animation: wrapper 3s forwards;
 	height: 100%;
 	left: 0;
