@@ -113,6 +113,14 @@ a:hover {
 	background-size: 70%;
 }
 /* Wrapper */
+@-webkit-keyframes wrapper {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
 @keyframes wrapper {
 	0% {
 		opacity: 0;
